@@ -1,0 +1,202 @@
+{
+    "apartments": {
+        "apt1": {
+            "name": "Sunset View Apartments",
+            "neighborhood": "Downtown",
+            "city": "Seattle",
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "price": 1800,
+            "size": 850,
+            "amenities": [
+                "Balcony",
+                "Gym",
+                "Parking",
+                "Dishwasher"
+            ],
+            "petFriendly": true,
+            "available": true
+        },
+        "apt2": {
+            "name": "Urban Loft Living",
+            "neighborhood": "Midtown",
+            "city": "Atlanta",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "price": 1400,
+            "size": 650,
+            "amenities": [
+                "Laundry",
+                "Rooftop Deck",
+                "Security System"
+            ],
+            "petFriendly": false,
+            "available": true
+        },
+        "apt3": {
+            "name": "Riverside Residences",
+            "neighborhood": "Riverfront",
+            "city": "Chicago",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "price": 2500,
+            "size": 1200,
+            "amenities": [
+                "Pool",
+                "Fitness Center",
+                "Waterfront View",
+                "Parking"
+            ],
+            "petFriendly": true,
+            "available": false
+        },
+        "apt4": {
+            "name": "The Metropolitan",
+            "neighborhood": "Financial District",
+            "city": "Boston",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "price": 2200,
+            "size": 950,
+            "amenities": [
+                "Concierge",
+                "Gym",
+                "In-unit Laundry",
+                "Hardwood Floors"
+            ],
+            "petFriendly": false,
+            "available": true
+        },
+        "apt5": {
+            "name": "Student Housing Commons",
+            "neighborhood": "University District",
+            "city": "Austin",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "price": 1100,
+            "size": 500,
+            "amenities": [
+                "Study Rooms",
+                "High-Speed Internet",
+                "Bike Storage"
+            ],
+            "petFriendly": false,
+            "available": true
+        },
+        "apt6": {
+            "name": "Garden Terrace Homes",
+            "neighborhood": "Suburb",
+            "city": "Denver",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "price": 1900,
+            "size": 1100,
+            "amenities": [
+                "Garden",
+                "Playground",
+                "Garage",
+                "Fireplace"
+            ],
+            "petFriendly": true,
+            "available": true
+        },
+        "apt7": {
+            "name": "Luxury Heights",
+            "neighborhood": "Historic District",
+            "city": "Philadelphia",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "price": 2300,
+            "size": 1000,
+            "amenities": [
+                "Doorman",
+                "Elevator",
+                "Fitness Center",
+                "Balcony"
+            ],
+            "petFriendly": false,
+            "available": true
+        },
+        "apt8": {
+            "name": "Budget Living",
+            "neighborhood": "South Side",
+            "city": "Dallas",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "price": 950,
+            "size": 600,
+            "amenities": [
+                "Parking",
+                "Laundry Facility"
+            ],
+            "petFriendly": true,
+            "available": true
+        },
+        "apt9": {
+            "name": "Seaside Apartments",
+            "neighborhood": "Beach Front",
+            "city": "San Diego",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "price": 2100,
+            "size": 950,
+            "amenities": [
+                "Ocean View",
+                "Pool",
+                "Gym",
+                "Balcony"
+            ],
+            "petFriendly": false,
+            "available": false
+        },
+        "apt10": {
+            "name": "Tech District Lofts",
+            "neighborhood": "Innovation District",
+            "city": "San Francisco",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "price": 2400,
+            "size": 750,
+            "amenities": [
+                "Coworking Space",
+                "Smart Home Features",
+                "Rooftop Lounge"
+            ],
+            "petFriendly": false,
+            "available": true
+        },
+        "apt11": {
+            "name": "Family Townhomes",
+            "neighborhood": "Parkside",
+            "city": "Minneapolis",
+            "bedrooms": 3,
+            "bathrooms": 2.5,
+            "price": 2050,
+            "size": 1350,
+            "amenities": [
+                "Backyard",
+                "Basement",
+                "Washer/Dryer",
+                "Playground"
+            ],
+            "petFriendly": true,
+            "available": true
+        },
+        "apt12": {
+            "name": "Artist's Warehouse",
+            "neighborhood": "Arts District",
+            "city": "Portland",
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "price": 1650,
+            "size": 900,
+            "amenities": [
+                "High Ceilings",
+                "Large Windows",
+                "Studio Space"
+            ],
+            "petFriendly": true,
+            "available": false
+        }
+    }
+}

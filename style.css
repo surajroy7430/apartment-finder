@@ -1,0 +1,63 @@
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container {
+    margin: 20px auto;
+}
+button {
+    cursor: pointer;
+}
+#apartment-lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+    justify-content: center;
+    gap: 20px;
+}
+.apartment-card {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+#listMsg, #formMsg {
+    margin: 0;
+}
+#apartmentForm {
+    max-width: 450px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+#apartmentForm input, #apartmentForm select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#apartmentForm button {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 18px;
+    width: 50%;
+    margin: 0 auto;
+}
+.searchAndFilter {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 30px;
+}
+.searchArea, .filterArea {
+    text-align: left;
+}

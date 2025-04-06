@@ -1,0 +1,66 @@
+<!-- 
+ You are building Apartment Finder, a web application where users can browse available apartments, 
+ search for specific properties, filter based on features and price range, and manage apartment listings 
+ in the system. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apartment Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="apartmentForm">
+            <input type="text" id="addName" placeholder="Enter apartment name...">
+            <input type="text" id="addNeighborhood" placeholder="Enter neighborhood...">
+            <input type="text" id="addCity" placeholder="Enter city name...">
+            <input type="number" id="addBedroom" placeholder="Enter number of bedrooms...">
+            <input type="number" id="addBathroom" placeholder="Enter number of bathrooms...">
+            <input type="number" id="addPrice" placeholder="Enter apartment price...">
+            <select id="addAvailability">
+                <option value="available">Available</option>
+                <option value="unavailable">Unavailable</option>
+            </select>
+            <button type="submit">Add</button>
+
+            <p id="formMsg"></p>
+        </form>
+
+        <div class="searchAndFilter">
+            <div class="searchArea">
+                <input type="text" id="searchInput" oninput="searchApartments()" placeholder="Search apartments...">
+                <button id="clear-search">Clear Search</button>
+            </div>
+            <div class="filterArea">
+                <div class="priceArea">
+                    <input type="number" id="minPrice" placeholder="Enter minimum price">
+                    <input type="number" id="maxPrice" placeholder="Enter maximum price">
+                </div>
+                <select id="filterByBedroom">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3+</option>
+                </select>
+                <br>
+                <input type="checkbox" id="availability">
+                <br>
+                <button id="clear-filter">Clear Filter</button>
+            </div>
+        </div>
+
+        <div class="apartment-conatiner">
+            <div id="apartment-lists"></div>
+            <div id="listMsg"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
